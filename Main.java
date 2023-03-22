@@ -1,4 +1,3 @@
-// 318879293 Idit medizada
 
 import Game.AnimationRunner;
 import Game.GameFlow;
@@ -14,18 +13,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Ass3Game class.
- * The main class.
- *
+
+ * Main class.
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.1 (current version number of program).
- * @since 2022-04-13 (the version of the package this class was first added to).
  */
 public class Main {
     /**
      * Main function.
      * A game object, initializes and runs it.
-     *
      * @param args String array.
      */
     public static void main(String[] args) {

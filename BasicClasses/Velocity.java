@@ -1,4 +1,3 @@
-// 318879293 Idit Medizada
 package BasicClasses;
 
 
@@ -6,10 +5,7 @@ import BasicShapes.Point;
 
 /**
  * Velocity class.
- *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.3 (current version number of program).
- * @since 2022-03-22 (the version of the package this class was first added to).
  */
 public class Velocity {
     private double dx;
@@ -17,7 +13,6 @@ public class Velocity {
 
     /**
      * Constructor function.
-     *
      * @param dx value
      * @param dy value
      */
@@ -28,7 +23,6 @@ public class Velocity {
 
     /**
      * Getter.
-     *
      * @return double dx
      */
     public double getDx() {
@@ -37,7 +31,6 @@ public class Velocity {
 
     /**
      * Getter.
-     *
      * @return double dy
      */
     public double getDy() {
@@ -46,7 +39,6 @@ public class Velocity {
 
     /**
      * Setter.
-     *
      * @param dx set the dx value.
      */
     public void setDx(double dx) {
@@ -55,7 +47,6 @@ public class Velocity {
 
     /**
      * Setter.
-     *
      * @param dy set the dy value.
      */
     public void setDy(double dy) {
@@ -64,7 +55,6 @@ public class Velocity {
 
     /**
      * Calculating velocity from angle and speed to dx/dy.
-     *
      * @param angle of the object
      * @param speed of object
      * @return Velocity argument
@@ -92,11 +82,9 @@ public class Velocity {
     /**
      * Take a point with position (x,y) and return a new point.
      * with position (x+dx, y+dy)
-     *
      * @param p Point value.
      * @return Point
      */
-
     public Point applyToPoint(Point p) {
         return new Point(p.getX() + this.dx, p.getY() + this.dy);
     }
