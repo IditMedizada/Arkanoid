@@ -8,6 +8,7 @@ import Collection.SpriteCollection;
 import Interfaces.LevelInformation;
 import Interfaces.Sprite;
 import SpriteAndCollidable.Block;
+import SpriteAndCollidable.FillCircle;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -52,9 +53,9 @@ public class Level3 implements LevelInformation {
 
     @Override
     public Sprite getBackground() {
-        Color color = new Color(43, 89, 6);
-
-        return new Block(new Rectangle(new Point(0, 0), 800, 600), color);
+        //Color color = new Color(43, 89, 6);
+        //Color color= Color.BLACK;
+        return new Block(new Rectangle(new Point(0, 0), 800, 600), Color.BLACK);
     }
 
     @Override
@@ -82,14 +83,23 @@ public class Level3 implements LevelInformation {
 
     @Override
     public Color getColorBackground() {
-        return new Color(43, 89, 6);
-
+        //return new Color(43, 89, 6);
+        return Color.BLACK;
     }
-
     @Override
     public SpriteCollection createBackground() {
-        return null;
-    }
+        SpriteCollection collection = new SpriteCollection();
+        for(int i=0; i<90; i++) {
+            collection.addSprite(new FillCircle(getRandomNumber(), getRandomNumber(), 3, new Color(199, 201, 201)));
+        }
+        collection.addSprite(new FillCircle(80, 100, 40, Color.WHITE));
+        collection.addSprite(new FillCircle(90, 100, 35, Color.BLACK));
 
+
+        return collection;
+    }
+    public int getRandomNumber() {
+        return (int) ((Math.random() * (1000)) + 0);
+    }
 
 }
