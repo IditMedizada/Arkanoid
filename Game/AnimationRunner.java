@@ -1,5 +1,4 @@
 package Game;
-// 318879293 Idit Medizada
 import Interfaces.Animation;
 import biuoop.DrawSurface;
 import biuoop.GUI;
@@ -10,8 +9,6 @@ import biuoop.Sleeper;
  * AnimationRunner class.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.2 (current version number of program).
- * @since 2022-04-13 (the version of the package this class was first added to).
  */
 public class AnimationRunner {
     private GUI gui;
