@@ -1,4 +1,3 @@
-// 318879293 Idit Medizada.
 package BasicShapes;
 
 import java.util.ArrayList;
@@ -8,7 +7,6 @@ import java.util.List;
  * Rectangle class.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @since 2022-04-04 .
  */
 public class Rectangle {
     private Point upperLeft;

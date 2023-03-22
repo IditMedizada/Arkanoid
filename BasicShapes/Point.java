@@ -1,5 +1,4 @@
 
-// 318879293 Idit Medizada
 
 package BasicShapes;
 
@@ -7,8 +6,6 @@ package BasicShapes;
  * Point class.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.1 (current version number of program).
- * @since 2022-03-22 (the version of the package this class was first added to).
  * A class that represents a point in space.
  */
 public class Point {

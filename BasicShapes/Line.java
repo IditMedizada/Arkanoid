@@ -1,14 +1,10 @@
-// 318879293 Idit Medizada
 package BasicShapes;
 
 import java.util.List;
 
 /**
  * Line class.
- *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.2 (current version number of program).
- * @since 2022-03-22 (the version of the package this class was first added to).
  */
 public class Line {
     private Point startPoint;
@@ -16,7 +12,6 @@ public class Line {
 
     /**
      * Constructors- with 2 point.
-     *
      * @param start Point
      * @param end   Point
      */
@@ -28,7 +23,6 @@ public class Line {
     /**
      * Constructors- with 4 values.
      * Creates 2 points.
-     *
      * @param x1 x value of the first Point
      * @param y1 y value of the first Point
      * @param x2 x value of the second Point
@@ -189,10 +183,9 @@ public class Line {
 
     /**
      * Calculate the free variable in a straight equation.
-     *
      * @param firstP  the start point of a line
      * @param secondP the end point of a line
-     *                Line represented as y=mx+b
+     *                 represented as y=mx+b
      * @return the free variable B
      */
     public double calculationB(Point firstP, Point secondP) {
