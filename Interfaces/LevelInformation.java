@@ -1,4 +1,3 @@
-//318879293 Idit Medizada
 package Interfaces;
 
 import BasicClasses.Velocity;
@@ -12,8 +11,6 @@ import java.util.List;
  * LevelInformation interface.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.2 (current version number of program).
- * @since 2022-04-13 (the version of the package this class was first added to).
  */
 public interface LevelInformation {
     /**

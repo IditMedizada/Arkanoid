@@ -1,4 +1,3 @@
-//318879293 Idit Medizada
 package Interfaces;
 
 import Game.GameLevel;
