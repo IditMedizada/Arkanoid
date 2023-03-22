@@ -1,4 +1,3 @@
-//318879293 Idit Medizada
 package Listeners;
 
 
@@ -13,8 +12,6 @@ import SpriteAndCollidable.Block;
  * of the number of blocks that remain.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.6 (current version number of program).
- * @since 2022-05-21 (the version of the package this class was first added to).
  */
 public class BlockRemover implements HitListener {
     private GameLevel game;

@@ -14,7 +14,11 @@ import SpriteAndCollidable.Line;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Level4 class.
+ *
+ * @author Idit Medizada iditm9@gmail.com
+ */
 public class Level4 implements LevelInformation {
 
     @Override

@@ -1,4 +1,3 @@
-//318879293 Idit Medizada
 package Levels;
 
 import BasicClasses.Velocity;
@@ -17,11 +16,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * WideEasy class.
+ * Level2 class.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.6 (current version number of program).
- * @since 2022-04-13 (the version of the package this class was first added to).
  */
 public class Level2 implements LevelInformation {
     static final int BALLS_NUMBER = 5;
