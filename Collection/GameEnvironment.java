@@ -1,4 +1,3 @@
-//318879293 Idit Medizada
 package Collection;
 
 import BasicClasses.CollisionInfo;
@@ -13,8 +12,6 @@ import java.util.List;
  * GameEnvironment class.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.2 (current version number of program).
- * @since 2022-03-22 (the version of the package this class was first added to).
  */
 public class GameEnvironment {
     private List<Collidable> collidableList;

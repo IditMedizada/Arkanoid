@@ -1,4 +1,3 @@
-//318879293 Idit Medizada
 package Collection;
 
 import Interfaces.Sprite;
@@ -11,8 +10,6 @@ import java.util.List;
  * SpriteCollection class.
  *
  * @author Idit Medizada iditm9@gmail.com
- * @version 1.6 (current version number of program).
- * @since 2022-03-22 (the version of the package this class was first added to).
  */
 public class SpriteCollection {
     private List<Sprite> spriteList;
